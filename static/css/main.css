@@ -1,0 +1,29 @@
+div.orgs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+a.org {
+    background-color: #fff;
+    border: 1px solid #e1e4e8;
+    border-radius: 3px;
+    padding: 7px;
+    margin: 10px;
+    color: #586069;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+a.org:hover {
+    background-color: #f6f8fa;
+}
+
+a.org > img {
+    margin-right: 5px;
+    max-height: 25px;
+}
